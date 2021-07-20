@@ -1,0 +1,147 @@
+@charset "utf-8";
+body{
+    background-color:#ccc;
+    color:#333;
+    font-size:15px;
+    line-height:2;
+    font-family:Anton,sans-serif
+}
+
+img {
+    vertical-align:bottom
+}
+
+a {
+    color:#3583aa;
+    text-decoration:none
+}
+
+a:visited {
+    color:#788d98
+}
+
+a:hover {
+    text-decoration:underline
+}
+
+header{
+    width:960px;
+    height:100px
+}
+
+
+.logo {
+    float:left;
+    margin-top:50px
+}
+
+.global-nav {
+    float:right;
+    margin-top:60px
+}
+
+.global-nav li {
+    float:left;
+    margin:0 20px;
+    font-size:20px
+}
+
+.global-nav li a {
+    color:#fff
+}
+
+.global-nav li a:hover {
+    border-bottom:2px solid #fff;
+    padding-bottom:3px;
+    text-decoration:none
+}
+
+#wrap {
+    clear:both
+}
+
+.content {
+    width:960px;margin:0 auto
+} 
+
+footer{
+    text-align:center;color:#fff;padding:20px 0
+} 
+
+footer small {
+    font-size:12px
+}
+
+h1 {
+    text-align:center;
+    font-size:100px;
+    line-height:1;color:#fff
+} 
+
+#index h1 {
+    font-size:100px;
+    line-height:1;color:#fff;
+    margin-bottom:50px
+}
+
+#index .content {
+    margin-top:150px
+}
+
+.btn a {
+    position:absolute;
+    top:30%px;
+    left:55%;
+    background-color:#009cd3;
+    color:#fff;
+    font-size:20px;
+    width:185px;
+    display:block;
+    text-align:center;
+    line-height:50px;
+    margin-top:20px;
+    border-radius:5px;border:3px solid #009cd3
+}
+
+.btn a:hover {
+    text-decoration:none;
+    background-color:#fff;color:#009cd3
+} 
+
+#btn a {
+    position:absolute;
+    top:30%px;
+    left:33%;
+    background-color:#009cd3;
+    color:#fff;
+    font-size:20px;
+    width:185px;
+    display:block;
+    text-align:center;
+    line-height:50px;
+    margin-top:20px;
+    border-radius:5px;border:3px solid #009cd3
+}
+
+#btn a:hover {
+    text-decoration:none;
+    background-color:#fff;color:#009cd3
+} 
+
+#index footer {
+    width:960px;margin:150px auto 0 auto;
+    text-align:left
+}
+
+#index {
+    background-image:url(../images/dayne-topkin-y5_mFlLMwJk-unsplash.jpg);
+    background-repeat:no-repeat;
+    background-position:center center;
+    background-attachment:fixed;
+    background-size:cover
+}
+
+#head {
+    padding-bottom:50px
+}
+
